@@ -1,0 +1,20 @@
+= Platforma Catalog
+
+== Getting Started
+[source,console]
+----
+cd backstage && yarn install --immutable
+----
+
+[IMPORTANT]
+====
+Make sure a copy of the Backstage app is created:
+
+[source,console]
+----
+npx @backstage/create-app@0.7.8 --skip-install
+----
+====
+
+== References
+* https://backstage.io/[Backstage]
